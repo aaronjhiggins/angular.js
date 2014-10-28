@@ -85,6 +85,7 @@ To make your Angular application work on IE please make sure that:
      ```
   5. Use `ng-style` tags instead of `style="{{ someCss }}"`. The later works in Chrome and Firefox
      but does not work in Internet Explorer <= 11 (the most recent version at time of writing).
+  6. If you use ng-show/ng-hide add this to your css .ng-hide { display:none!important; }
 
 
 The **important** parts are:
